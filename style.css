@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --primary-color:#e5e5fD;
+   --primary-text-color:#0000;
+
+}
+/* Customizing the container */
+.container{
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+    
+    
+    background-color:var(--primary-color)
+    
+    
+}
+/* Utility Classes */
+.flex{
+    display: flex;
+}
+.top_section{
+    /* flex-direction: column; */
+    gap:100px;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.content{
+    max-width: 900px;
+    margin:0 auto;
+    flex-direction: column;
+
+}
+.top_section>.main_img>img{
+    height: 320px;
+    width: 300px;
+    border-radius: 50%;
+}
+.top_section>.main_title{
+    font-size: 22px;
+    color: #1d1e4c;
+    margin-top: 100px;
+}
+.top_section h4{
+    font-size: 30px ;
+    text-align: end;
+}
+.about_title>h2{
+font-size: 70px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+.biographies ul>li{
+    line-height: 35px;
+    font-size: 17px;
+}
+.wiki_section h3{
+    text-align: end;
+}
